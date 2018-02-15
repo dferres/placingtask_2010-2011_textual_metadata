@@ -27,10 +27,10 @@ The dataset was composed by 5125 and 5091 videos for the development and test se
 Metadata for videos (which was collected from Flickr) is contained in XML files. In most cases, the XML fields of the metadata were self-descriptive. Besides the Title, Tags, Description, Comments and Location of the videos, it was also included information about the User who uploaded the videos and about his/her Contacts, his/her Favourites and the list of all videos she/he has uploaded in the past. Please, note that tags are contained in the field . The development set comes with the ground truth values for each video. This information is contained in the metadata in the field .
 
 
-  [MediaEval 2010 Placing Task development set original XML files]()  
-  [MediaEval 2010 Placing Task test set original XML files]()  
-  [MediaEval 2010 Placing Task test set groundtruth]()  
-  [MediaEval 2010 Placing Task test set groundtruth (coordinates only)]()  
+  [MediaEval 2010 Placing Task development set original XML files](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/DevelopmentSet_Metadata_PlacingTask_2010.tar.gz)  
+  [MediaEval 2010 Placing Task test set original XML files](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/TestSet_Metadata_PlacingTask_2010.tar.gz)  
+  [MediaEval 2010 Placing Task test set groundtruth](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/groundtruth_testset_mediaeval2010.txt)  
+  [MediaEval 2010 Placing Task test set groundtruth (coordinates only)](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/groundtruth_testset_mediaeval2010_coordinates.txt)  
 
 ###Flickr images metadata dataset
 
@@ -38,7 +38,7 @@ Metadata for videos (which was collected from Flickr) is contained in XML files.
 The MediaEval Placing Task organizers provided a Flickr images dataset useful for development purposes. Using geographic bounding boxes of various size and the Flickr API, they collected metadata for 3,185,258 CC-licensed Flickr photos uniformly sampled from all parts of the world. Most, but not all, photos have textual tags. All photos have geotags of at least region level accuracy. Accuracy shows what zoom level the user used when placing the photo on the map. There are 16 zoom and hence 16 accuracy levels (e.g., 6 - region level, 12 - city level, 16 - street level). Note that they include Flickr images since they are potentially helpful for development purposes. The test set, however, included only videos.
 
 
-[Flickr Images Dataset (about 3.2 million images)]()
+[Flickr Images Dataset (about 3.2 million images)](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/photos-meta.zip)
 
 The Flickr images dataset is a text file in with each line represents the information related to a photo.
 
@@ -65,12 +65,12 @@ A set of basic visual features extracted for all images and for the frames of th
 
 Note: Please note that the task requires you to predict the latitude and longitude for each video. The development set comes with the ground truth values for each video. This information is contained in the metadata in the field .
 
-*[MediaEval 2011 Placing Task development set original XML files]()  
-*[MediaEval 2011 Placing Task test set original XML files]()  
-*[MediaEval 2011 Placing Task test set groundtruth]()  
-*[MediaEval 2011 Placing Task test set groundtruth (coordinates only)]()  
+  [MediaEval 2011 Placing Task development set original XML files](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/DevelopmentSet_Metadata_PlacingTask_2011.tar.gz)  
+  [MediaEval 2011 Placing Task test set original XML files](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/TestSet_Metadata_PlacingTask_2011.tar.gz)  
+  [MediaEval 2011 Placing Task test set groundtruth](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/groundtruth_testset_mediaeval2011.txt)  
+  [MediaEval 2011 Placing Task test set groundtruth (coordinates only)](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/groundtruth_testset_mediaeval2011_coordinates.txt)  
 
-*[Flickr Images Dataset (~ about 3.2 million images)]()
+*[Flickr Images Dataset (~ about 3.2 million images)](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/photos-meta.zip)
 
 
 Flickr images (useful for development purposes) For development purposes they provided metadata and low-level visual features extracted from a large set of Flickr images. If you would like the images, you need to download them yourself using the links in the metadata.
