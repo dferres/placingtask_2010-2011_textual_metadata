@@ -32,7 +32,7 @@ Metadata for videos (which was collected from Flickr) is contained in XML files.
   [MediaEval 2010 Placing Task test set groundtruth](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/groundtruth_testset_mediaeval2010.txt)  
   [MediaEval 2010 Placing Task test set groundtruth (coordinates only)](https://github.com/dferres/placingtask_2010-2011_textual_metadata/blob/master/groundtruth_testset_mediaeval2010_coordinates.txt)  
 
-###Flickr images metadata dataset
+### Flickr images metadata dataset
 
 
 The MediaEval Placing Task organizers provided a Flickr images dataset useful for development purposes. Using geographic bounding boxes of various size and the Flickr API, they collected metadata for 3,185,258 CC-licensed Flickr photos uniformly sampled from all parts of the world. Most, but not all, photos have textual tags. All photos have geotags of at least region level accuracy. Accuracy shows what zoom level the user used when placing the photo on the map. There are 16 zoom and hence 16 accuracy levels (e.g., 6 - region level, 12 - city level, 16 - street level). Note that they include Flickr images since they are potentially helpful for development purposes. The test set, however, included only videos.
@@ -51,7 +51,7 @@ So, each line has the format: UserID/PhotoID : HTMLLinkToPhoto : GeoData[longitu
 UserIDs and PhotoIDs are Flickr user and photo identifiers, dates are unix timestamps, links are to medium sized photos.
 
 
-##MediaEval 2011 Placing Task dataset
+## MediaEval 2011 Placing Task dataset
 
 The data set is an extension of the 2010 Placing Task data set and contains a set of geotagged Flickr videos (~15,000 for development and test purposes) as well as the metadata for geotagged Flickr images (~3.2 million). A set of basic visual features extracted for all images and for the frames of the videos was provided. Evaluation of runs submitted by participating groups was based on distances between the predicted and the actual geo-coordinates.
 
@@ -76,7 +76,7 @@ Note: Please note that the task requires you to predict the latitude and longitu
 Flickr images (useful for development purposes) For development purposes they provided metadata and low-level visual features extracted from a large set of Flickr images. If you would like the images, you need to download them yourself using the links in the metadata.
 
 
-##Evaluation
+## Evaluation
 
 
 Evaluation of runs submitted by participating groups was based on distances between the predicted and the actual geo-coordinates. Ground truth is supplied by Flickr users uploaded the videos and the images. 
@@ -88,7 +88,7 @@ Evaluation was done by calculating the distance from the actual point (assigned 
 Claudia Hauff provided an Evaluation Script in his website [http://www.st.ewi.tudelft.nl/~hauff/PlacingTask2013/eval](http://www.st.ewi.tudelft.nl/~hauff/PlacingTask2013/eval)
 
 
-##References & Citation
+## References & Citation
 
 
 If you use the Placing Task 2010 and/or 2011 textual metadata datasets, please cite the this paper:
@@ -114,6 +114,6 @@ The Placing Task 2011 overview paper data:
  _Working Notes for the Placing Task at MediaEval 2011_ [[pdf]](http://ceur-ws.org/Vol-807/Rae_Placing_me11overview.pdf) [[bibtex]](http://dblp2.uni-trier.de/rec/bib2/conf/mediaeval/RaeMSK11.bib)  
 
 
-##Legal Disclaimer
+## Legal Disclaimer
 The author of this site assumes no responsibility for the correctness and use of the information and data contained in this site.
 
